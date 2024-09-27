@@ -21,7 +21,7 @@ provider:
             - dynamodb:PutItem
             - dynamodb:UpdateItem
             - dynamodb:GetItem
-            - dynamodb:Query  # Lägg till dynamodb:Query här
+            - dynamodb:Query
             - logs:CreateLogGroup
             - logs:CreateLogStream
             - logs:PutLogEvents
@@ -39,11 +39,11 @@ plugins:
 package:
   individually: true
   exclude:
-    - '**/*' # Exkludera allt
+    - '**/*'
   include:
-    - handler.js # Din Lambda handler
-    - node_modules/@aws-sdk/client-dynamodb/** # För DynamoDB-anrop
-    - node_modules/uuid/** # För att skapa UUID
+    - handler.js
+    - node_modules/@aws-sdk/client-dynamodb/** 
+    - node_modules/uuid/** 
 
 functions:
   createMessage:

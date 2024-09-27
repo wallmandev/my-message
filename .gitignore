@@ -1,6 +1,5 @@
 node_modules/aws-sdk
 .git/
 .DS_Store
-frontend/
 logs/
 tests/
