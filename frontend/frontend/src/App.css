@@ -1,0 +1,72 @@
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+button{
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.style-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #19274A;
+  height: 1000px;
+}
+
+.container{
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.message-user{
+  font-weight: bold;
+  padding: 0 1rem 0 1rem;
+}
+
+.message-message{
+  padding: 1rem;
+
+}
+
+.button-div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Backtohome-button{
+  margin-bottom: 1rem;
+}
+
+.list-container{
+  list-style: none;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  background-color:cornsilk;
+  margin: 0 1rem;
+  border-radius: 5px;
+}
