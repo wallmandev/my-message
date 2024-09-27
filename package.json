@@ -1,0 +1,27 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node handler.js",
+    "dev": "nodemon handler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.656.0",
+    "@aws-sdk/client-lambda": "^3.656.0",
+    "@aws-sdk/client-s3": "^3.657.0",
+    "axios": "^1.7.7",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-include-dependencies": "^6.1.1",
+    "serverless-webpack": "^5.14.2",
+    "webpack": "^5.95.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
